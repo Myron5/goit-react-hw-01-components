@@ -7,9 +7,9 @@ import {
   Num,
 } from './Statistics.styled';
 
-export const Statistics = ({ title = 'Stats', stats }) => (
+export const Statistics = ({ title, stats }) => (
   <StatisticsBox>
-    <Title>{title}</Title>
+    {title && <Title>{title}</Title>}
 
     <DocList>
       {stats.map(stat => (

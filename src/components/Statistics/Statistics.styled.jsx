@@ -25,6 +25,7 @@ export const StatisticsBox = styled.div`
 
 export const Title = styled.h2`
   margin-top: 20px;
+  margin-bottom: 30px;
 
   color: ${colors.txtBlack};
   text-align: center;
@@ -33,7 +34,6 @@ export const Title = styled.h2`
 
 export const DocList = styled.ul`
   display: flex;
-  margin-top: 30px;
   width: 100%;
 `;
 
